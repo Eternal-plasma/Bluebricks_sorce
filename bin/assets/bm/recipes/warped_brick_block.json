@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+   
+    "pattern":
+    [
+        "BB ",
+        "BB ",
+        "   "
+    ],
+   
+    "key":
+    {
+        "B":
+        {
+            "item": "bm:warped_brick"
+        }
+    },
+   
+    "result":
+    {
+        "item": "bm:warped_brick_block",
+        "count": 1
+    }
+}

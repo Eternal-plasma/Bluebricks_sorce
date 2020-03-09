@@ -1,0 +1,462 @@
+Unsupposrted library path: F:\Modding\BlueBricks\build\classes\api
+Unsupposrted library path: F:\Modding\BlueBricks\build\resources\api
+Symbol range map extraction starting
+Processing 13 files
+startProcessing "com/Eternal_plasma/BlueBricks/Main.java" md5: 5a528e206c0564032b6754c966dc558e
+@|com/Eternal_plasma/BlueBricks/Main.java|8|37|com.Eternal_plasma.BlueBricks|package|com.Eternal_plasma.BlueBricks|(file)
+Class Start: com.Eternal_plasma.BlueBricks.Main
+   @|com/Eternal_plasma/BlueBricks/Main.java|631|634|Mod|class|net.minecraftforge.fml.common.Mod|false
+   @|com/Eternal_plasma/BlueBricks/Main.java|635|640|modid|method|net.minecraftforge.fml.common.Mod|modid|()Ljava/lang/String;
+   @|com/Eternal_plasma/BlueBricks/Main.java|643|651|Refrence|class|com.Eternal_plasma.BlueBricks.util.Refrence|false
+   @|com/Eternal_plasma/BlueBricks/Main.java|652|658|MOD_ID|field|com.Eternal_plasma.BlueBricks.util.Refrence|MOD_ID
+   @|com/Eternal_plasma/BlueBricks/Main.java|659|663|name|method|net.minecraftforge.fml.common.Mod|name|()Ljava/lang/String;
+   @|com/Eternal_plasma/BlueBricks/Main.java|666|674|Refrence|class|com.Eternal_plasma.BlueBricks.util.Refrence|false
+   @|com/Eternal_plasma/BlueBricks/Main.java|675|679|NAME|field|com.Eternal_plasma.BlueBricks.util.Refrence|NAME
+   @|com/Eternal_plasma/BlueBricks/Main.java|680|687|version|method|net.minecraftforge.fml.common.Mod|version|()Ljava/lang/String;
+   @|com/Eternal_plasma/BlueBricks/Main.java|690|698|Refrence|class|com.Eternal_plasma.BlueBricks.util.Refrence|false
+   @|com/Eternal_plasma/BlueBricks/Main.java|699|706|VERSION|field|com.Eternal_plasma.BlueBricks.util.Refrence|VERSION
+   @|com/Eternal_plasma/BlueBricks/Main.java|722|726|Main|class|com.Eternal_plasma.BlueBricks.Main|false
+   @|com/Eternal_plasma/BlueBricks/Main.java|793|797|Main|class|com.Eternal_plasma.BlueBricks.Main|false
+   @|com/Eternal_plasma/BlueBricks/Main.java|734|776|net.minecraftforge.fml.common.Mod.Instance|class|net.minecraftforge.fml.common.Mod.Instance|false
+   @|com/Eternal_plasma/BlueBricks/Main.java|793|797|Main|class|com.Eternal_plasma.BlueBricks.Main|false
+   @|com/Eternal_plasma/BlueBricks/Main.java|798|806|Instance|field|com.Eternal_plasma.BlueBricks.Main|Instance|
+   @|com/Eternal_plasma/BlueBricks/Main.java|921|932|CommonProxy|class|com.Eternal_plasma.BlueBricks.proxy.CommonProxy|false
+   @|com/Eternal_plasma/BlueBricks/Main.java|811|821|SidedProxy|class|net.minecraftforge.fml.common.SidedProxy|false
+   @|com/Eternal_plasma/BlueBricks/Main.java|822|832|clientSide|method|net.minecraftforge.fml.common.SidedProxy|clientSide|()Ljava/lang/String;
+   @|com/Eternal_plasma/BlueBricks/Main.java|835|843|Refrence|class|com.Eternal_plasma.BlueBricks.util.Refrence|false
+   @|com/Eternal_plasma/BlueBricks/Main.java|844|862|CLIENT_PROXY_CLASS|field|com.Eternal_plasma.BlueBricks.util.Refrence|CLIENT_PROXY_CLASS
+   @|com/Eternal_plasma/BlueBricks/Main.java|863|873|serverSide|method|net.minecraftforge.fml.common.SidedProxy|serverSide|()Ljava/lang/String;
+   @|com/Eternal_plasma/BlueBricks/Main.java|876|884|Refrence|class|com.Eternal_plasma.BlueBricks.util.Refrence|false
+   @|com/Eternal_plasma/BlueBricks/Main.java|885|903|COMMON_PROXY_CLASS|field|com.Eternal_plasma.BlueBricks.util.Refrence|COMMON_PROXY_CLASS
+   @|com/Eternal_plasma/BlueBricks/Main.java|921|932|CommonProxy|class|com.Eternal_plasma.BlueBricks.proxy.CommonProxy|false
+   @|com/Eternal_plasma/BlueBricks/Main.java|933|938|proxy|field|com.Eternal_plasma.BlueBricks.Main|proxy|
+   Method Start: PreInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|com/Eternal_plasma/BlueBricks/Main.java|1014|1019|event|param|com.Eternal_plasma.BlueBricks.Main|PreInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+      @|com/Eternal_plasma/BlueBricks/Main.java|946|958|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler|false
+      @|com/Eternal_plasma/BlueBricks/Main.java|980|987|PreInit|method|com.Eternal_plasma.BlueBricks.Main|PreInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|com/Eternal_plasma/BlueBricks/Main.java|988|1013|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent|false
+      @|com/Eternal_plasma/BlueBricks/Main.java|1028|1040|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry|false
+      @|com/Eternal_plasma/BlueBricks/Main.java|1041|1063|registerWorldGenerator|method|net.minecraftforge.fml.common.registry.GameRegistry|registerWorldGenerator|(Lnet/minecraftforge/fml/common/IWorldGenerator;I)V
+      @|com/Eternal_plasma/BlueBricks/Main.java|1068|1079|ModWorldGen|class|com.Eternal_plasma.BlueBricks.world.ModWorldGen|false
+   Method End: PreInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+   Method Start: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|com/Eternal_plasma/BlueBricks/Main.java|1156|1161|event|param|com.Eternal_plasma.BlueBricks.Main|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+      @|com/Eternal_plasma/BlueBricks/Main.java|1094|1106|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler|false
+      @|com/Eternal_plasma/BlueBricks/Main.java|1128|1132|init|method|com.Eternal_plasma.BlueBricks.Main|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|com/Eternal_plasma/BlueBricks/Main.java|1133|1155|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent|false
+   Method End: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+   Method Start: Postinit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|com/Eternal_plasma/BlueBricks/Main.java|1248|1253|event|param|com.Eternal_plasma.BlueBricks.Main|Postinit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V|event|0
+      @|com/Eternal_plasma/BlueBricks/Main.java|1178|1190|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler|false
+      @|com/Eternal_plasma/BlueBricks/Main.java|1212|1220|Postinit|method|com.Eternal_plasma.BlueBricks.Main|Postinit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|com/Eternal_plasma/BlueBricks/Main.java|1221|1247|FMLPostInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPostInitializationEvent|false
+   Method End: Postinit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+Class End  : com.Eternal_plasma.BlueBricks.Main
+endProcessing "com/Eternal_plasma/BlueBricks/Main.java"
+
+startProcessing "com/Eternal_plasma/BlueBricks/blocks/BlockBase.java" md5: 48b9b8b9e25961e498f2353e92993c36
+@|com/Eternal_plasma/BlueBricks/blocks/BlockBase.java|8|44|com.Eternal_plasma.BlueBricks.blocks|package|com.Eternal_plasma.BlueBricks.blocks|(file)
+Class Start: com.Eternal_plasma.BlueBricks.blocks.BlockBase
+   @|com/Eternal_plasma/BlueBricks/blocks/BlockBase.java|472|481|BlockBase|class|com.Eternal_plasma.BlueBricks.blocks.BlockBase|false
+   @|com/Eternal_plasma/BlueBricks/blocks/BlockBase.java|490|495|Block|class|net.minecraft.block.Block|false
+   @|com/Eternal_plasma/BlueBricks/blocks/BlockBase.java|507|516|IHasModel|class|com.Eternal_plasma.BlueBricks.util.IHasModel|false
+   Method Start: BlockBase(Ljava/lang/String;Lnet/minecraft/block/material/Material;)V
+      @|com/Eternal_plasma/BlueBricks/blocks/BlockBase.java|552|556|name|param|com.Eternal_plasma.BlueBricks.blocks.BlockBase|BlockBase|(Ljava/lang/String;Lnet/minecraft/block/material/Material;)V|name|0
+      @|com/Eternal_plasma/BlueBricks/blocks/BlockBase.java|567|575|material|param|com.Eternal_plasma.BlueBricks.blocks.BlockBase|BlockBase|(Ljava/lang/String;Lnet/minecraft/block/material/Material;)V|material|1
+      @|com/Eternal_plasma/BlueBricks/blocks/BlockBase.java|535|544|BlockBase|method|com.Eternal_plasma.BlueBricks.blocks.BlockBase|BlockBase|(Ljava/lang/String;Lnet/minecraft/block/material/Material;)V
+      @|com/Eternal_plasma/BlueBricks/blocks/BlockBase.java|545|551|String|class|java.lang.String|false
+      @|com/Eternal_plasma/BlueBricks/blocks/BlockBase.java|558|566|Material|class|net.minecraft.block.material.Material|false
+      @|com/Eternal_plasma/BlueBricks/blocks/BlockBase.java|590|598|material|param|com.Eternal_plasma.BlueBricks.blocks.BlockBase|BlockBase|(Ljava/lang/String;Lnet/minecraft/block/material/Material;)V|material|1
+      @|com/Eternal_plasma/BlueBricks/blocks/BlockBase.java|604|622|setUnlocalizedName|method|net.minecraft.block.Block|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/block/Block;
+      @|com/Eternal_plasma/BlueBricks/blocks/BlockBase.java|623|627|name|param|com.Eternal_plasma.BlueBricks.blocks.BlockBase|BlockBase|(Ljava/lang/String;Lnet/minecraft/block/material/Material;)V|name|0
+      @|com/Eternal_plasma/BlueBricks/blocks/BlockBase.java|633|648|setRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/registries/IForgeRegistryEntry;
+      @|com/Eternal_plasma/BlueBricks/blocks/BlockBase.java|649|653|name|param|com.Eternal_plasma.BlueBricks.blocks.BlockBase|BlockBase|(Ljava/lang/String;Lnet/minecraft/block/material/Material;)V|name|0
+      @|com/Eternal_plasma/BlueBricks/blocks/BlockBase.java|659|673|setCreativeTab|method|net.minecraft.block.Block|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;
+      @|com/Eternal_plasma/BlueBricks/blocks/BlockBase.java|674|686|CreativeTabs|class|net.minecraft.creativetab.CreativeTabs|false
+      @|com/Eternal_plasma/BlueBricks/blocks/BlockBase.java|687|702|BUILDING_BLOCKS|field|net.minecraft.creativetab.CreativeTabs|BUILDING_BLOCKS
+      @|com/Eternal_plasma/BlueBricks/blocks/BlockBase.java|708|717|ModBlocks|class|com.Eternal_plasma.BlueBricks.init.ModBlocks|false
+      @|com/Eternal_plasma/BlueBricks/blocks/BlockBase.java|718|724|BLOCKS|field|com.Eternal_plasma.BlueBricks.init.ModBlocks|BLOCKS
+      @|com/Eternal_plasma/BlueBricks/blocks/BlockBase.java|725|728|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
+      @|com/Eternal_plasma/BlueBricks/blocks/BlockBase.java|739|747|ModItems|class|com.Eternal_plasma.BlueBricks.init.ModItems|false
+      @|com/Eternal_plasma/BlueBricks/blocks/BlockBase.java|748|753|ITEMS|field|com.Eternal_plasma.BlueBricks.init.ModItems|ITEMS
+      @|com/Eternal_plasma/BlueBricks/blocks/BlockBase.java|754|757|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
+      @|com/Eternal_plasma/BlueBricks/blocks/BlockBase.java|762|771|ItemBlock|class|net.minecraft.item.ItemBlock|false
+      @|com/Eternal_plasma/BlueBricks/blocks/BlockBase.java|778|793|setRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry|setRegistryName|(Lnet/minecraft/util/ResourceLocation;)Ljava/lang/Object;
+      @|com/Eternal_plasma/BlueBricks/blocks/BlockBase.java|799|814|getRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry|getRegistryName|()Lnet/minecraft/util/ResourceLocation;
+   Method End: BlockBase(Ljava/lang/String;Lnet/minecraft/block/material/Material;)V
+   Method Start: registerModels()V
+      @|com/Eternal_plasma/BlueBricks/blocks/BlockBase.java|829|837|Override|class|java.lang.Override|false
+      @|com/Eternal_plasma/BlueBricks/blocks/BlockBase.java|852|866|registerModels|method|com.Eternal_plasma.BlueBricks.util.IHasModel|registerModels|()V
+      @|com/Eternal_plasma/BlueBricks/blocks/BlockBase.java|912|916|Main|class|com.Eternal_plasma.BlueBricks.Main|false
+      @|com/Eternal_plasma/BlueBricks/blocks/BlockBase.java|917|922|proxy|field|com.Eternal_plasma.BlueBricks.Main|proxy
+      @|com/Eternal_plasma/BlueBricks/blocks/BlockBase.java|923|943|RegisterItemRenderer|method|com.Eternal_plasma.BlueBricks.proxy.CommonProxy|RegisterItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V
+      @|com/Eternal_plasma/BlueBricks/blocks/BlockBase.java|944|948|Item|class|net.minecraft.item.Item|false
+      @|com/Eternal_plasma/BlueBricks/blocks/BlockBase.java|949|965|getItemFromBlock|method|net.minecraft.item.Item|getItemFromBlock|(Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;
+   Method End: registerModels()V
+Class End  : com.Eternal_plasma.BlueBricks.blocks.BlockBase
+endProcessing "com/Eternal_plasma/BlueBricks/blocks/BlockBase.java"
+
+startProcessing "com/Eternal_plasma/BlueBricks/blocks/Warped_ore.java" md5: acd3b5fb7a92b9b13a368649fca5260e
+@|com/Eternal_plasma/BlueBricks/blocks/Warped_ore.java|8|44|com.Eternal_plasma.BlueBricks.blocks|package|com.Eternal_plasma.BlueBricks.blocks|(file)
+Class Start: com.Eternal_plasma.BlueBricks.blocks.Warped_ore
+   @|com/Eternal_plasma/BlueBricks/blocks/Warped_ore.java|313|323|Warped_ore|class|com.Eternal_plasma.BlueBricks.blocks.Warped_ore|false
+   @|com/Eternal_plasma/BlueBricks/blocks/Warped_ore.java|332|341|BlockBase|class|com.Eternal_plasma.BlueBricks.blocks.BlockBase|false
+   Method Start: Warped_ore(Ljava/lang/String;Lnet/minecraft/block/material/Material;)V
+      @|com/Eternal_plasma/BlueBricks/blocks/Warped_ore.java|371|375|name|param|com.Eternal_plasma.BlueBricks.blocks.Warped_ore|Warped_ore|(Ljava/lang/String;Lnet/minecraft/block/material/Material;)V|name|0
+      @|com/Eternal_plasma/BlueBricks/blocks/Warped_ore.java|386|394|material|param|com.Eternal_plasma.BlueBricks.blocks.Warped_ore|Warped_ore|(Ljava/lang/String;Lnet/minecraft/block/material/Material;)V|material|1
+      @|com/Eternal_plasma/BlueBricks/blocks/Warped_ore.java|353|363|Warped_ore|method|com.Eternal_plasma.BlueBricks.blocks.Warped_ore|Warped_ore|(Ljava/lang/String;Lnet/minecraft/block/material/Material;)V
+      @|com/Eternal_plasma/BlueBricks/blocks/Warped_ore.java|364|370|String|class|java.lang.String|false
+      @|com/Eternal_plasma/BlueBricks/blocks/Warped_ore.java|377|385|Material|class|net.minecraft.block.material.Material|false
+      @|com/Eternal_plasma/BlueBricks/blocks/Warped_ore.java|411|415|name|param|com.Eternal_plasma.BlueBricks.blocks.Warped_ore|Warped_ore|(Ljava/lang/String;Lnet/minecraft/block/material/Material;)V|name|0
+      @|com/Eternal_plasma/BlueBricks/blocks/Warped_ore.java|417|425|material|param|com.Eternal_plasma.BlueBricks.blocks.Warped_ore|Warped_ore|(Ljava/lang/String;Lnet/minecraft/block/material/Material;)V|material|1
+      @|com/Eternal_plasma/BlueBricks/blocks/Warped_ore.java|430|442|setSoundType|method|net.minecraft.block.Block|setSoundType|(Lnet/minecraft/block/SoundType;)Lnet/minecraft/block/Block;
+      @|com/Eternal_plasma/BlueBricks/blocks/Warped_ore.java|443|452|SoundType|class|net.minecraft.block.SoundType|false
+      @|com/Eternal_plasma/BlueBricks/blocks/Warped_ore.java|453|458|STONE|field|net.minecraft.block.SoundType|STONE
+      @|com/Eternal_plasma/BlueBricks/blocks/Warped_ore.java|463|474|setHardness|method|net.minecraft.block.Block|setHardness|(F)Lnet/minecraft/block/Block;
+      @|com/Eternal_plasma/BlueBricks/blocks/Warped_ore.java|484|497|setResistance|method|net.minecraft.block.Block|setResistance|(F)Lnet/minecraft/block/Block;
+      @|com/Eternal_plasma/BlueBricks/blocks/Warped_ore.java|509|524|setHarvestLevel|method|net.minecraft.block.Block|setHarvestLevel|(Ljava/lang/String;I)V
+      @|com/Eternal_plasma/BlueBricks/blocks/Warped_ore.java|542|555|setLightLevel|method|net.minecraft.block.Block|setLightLevel|(F)Lnet/minecraft/block/Block;
+   Method End: Warped_ore(Ljava/lang/String;Lnet/minecraft/block/material/Material;)V
+   Method Start: getItemDropped(Lnet/minecraft/block/state/IBlockState;Ljava/util/Random;I)Lnet/minecraft/item/Item;
+      @|com/Eternal_plasma/BlueBricks/blocks/Warped_ore.java|628|633|state|param|com.Eternal_plasma.BlueBricks.blocks.Warped_ore|getItemDropped|(Lnet/minecraft/block/state/IBlockState;Ljava/util/Random;I)Lnet/minecraft/item/Item;|state|0
+      @|com/Eternal_plasma/BlueBricks/blocks/Warped_ore.java|642|646|rand|param|com.Eternal_plasma.BlueBricks.blocks.Warped_ore|getItemDropped|(Lnet/minecraft/block/state/IBlockState;Ljava/util/Random;I)Lnet/minecraft/item/Item;|rand|1
+      @|com/Eternal_plasma/BlueBricks/blocks/Warped_ore.java|652|659|fortune|param|com.Eternal_plasma.BlueBricks.blocks.Warped_ore|getItemDropped|(Lnet/minecraft/block/state/IBlockState;Ljava/util/Random;I)Lnet/minecraft/item/Item;|fortune|2
+      @|com/Eternal_plasma/BlueBricks/blocks/Warped_ore.java|576|584|Override|class|java.lang.Override|false
+      @|com/Eternal_plasma/BlueBricks/blocks/Warped_ore.java|596|600|Item|class|net.minecraft.item.Item|false
+      @|com/Eternal_plasma/BlueBricks/blocks/Warped_ore.java|601|615|getItemDropped|method|net.minecraft.block.Block|getItemDropped|(Lnet/minecraft/block/state/IBlockState;Ljava/util/Random;I)Lnet/minecraft/item/Item;
+      @|com/Eternal_plasma/BlueBricks/blocks/Warped_ore.java|616|627|IBlockState|class|net.minecraft.block.state.IBlockState|false
+      @|com/Eternal_plasma/BlueBricks/blocks/Warped_ore.java|635|641|Random|class|java.util.Random|false
+      @|com/Eternal_plasma/BlueBricks/blocks/Warped_ore.java|680|688|ModItems|class|com.Eternal_plasma.BlueBricks.init.ModItems|false
+      @|com/Eternal_plasma/BlueBricks/blocks/Warped_ore.java|689|701|WARPED_BRICK|field|com.Eternal_plasma.BlueBricks.init.ModItems|WARPED_BRICK
+   Method End: getItemDropped(Lnet/minecraft/block/state/IBlockState;Ljava/util/Random;I)Lnet/minecraft/item/Item;
+   Method Start: quantityDropped(Ljava/util/Random;)I
+      @|com/Eternal_plasma/BlueBricks/blocks/Warped_ore.java|766|770|rand|param|com.Eternal_plasma.BlueBricks.blocks.Warped_ore|quantityDropped|(Ljava/util/Random;)I|rand|0
+      @|com/Eternal_plasma/BlueBricks/blocks/Warped_ore.java|719|727|Override|class|java.lang.Override|false
+      @|com/Eternal_plasma/BlueBricks/blocks/Warped_ore.java|743|758|quantityDropped|method|net.minecraft.block.Block|quantityDropped|(Ljava/util/Random;)I
+      @|com/Eternal_plasma/BlueBricks/blocks/Warped_ore.java|759|765|Random|class|java.util.Random|false
+   Method End: quantityDropped(Ljava/util/Random;)I
+Class End  : com.Eternal_plasma.BlueBricks.blocks.Warped_ore
+endProcessing "com/Eternal_plasma/BlueBricks/blocks/Warped_ore.java"
+
+startProcessing "com/Eternal_plasma/BlueBricks/blocks/warped_brick_block.java" md5: 98d35d49c3da63060a003e4be73fa536
+@|com/Eternal_plasma/BlueBricks/blocks/warped_brick_block.java|8|44|com.Eternal_plasma.BlueBricks.blocks|package|com.Eternal_plasma.BlueBricks.blocks|(file)
+Class Start: com.Eternal_plasma.BlueBricks.blocks.warped_brick_block
+   @|com/Eternal_plasma/BlueBricks/blocks/warped_brick_block.java|150|168|warped_brick_block|class|com.Eternal_plasma.BlueBricks.blocks.warped_brick_block|false
+   @|com/Eternal_plasma/BlueBricks/blocks/warped_brick_block.java|177|186|BlockBase|class|com.Eternal_plasma.BlueBricks.blocks.BlockBase|false
+   Method Start: warped_brick_block(Ljava/lang/String;Lnet/minecraft/block/material/Material;)V
+      @|com/Eternal_plasma/BlueBricks/blocks/warped_brick_block.java|227|231|name|param|com.Eternal_plasma.BlueBricks.blocks.warped_brick_block|warped_brick_block|(Ljava/lang/String;Lnet/minecraft/block/material/Material;)V|name|0
+      @|com/Eternal_plasma/BlueBricks/blocks/warped_brick_block.java|242|250|material|param|com.Eternal_plasma.BlueBricks.blocks.warped_brick_block|warped_brick_block|(Ljava/lang/String;Lnet/minecraft/block/material/Material;)V|material|1
+      @|com/Eternal_plasma/BlueBricks/blocks/warped_brick_block.java|201|219|warped_brick_block|method|com.Eternal_plasma.BlueBricks.blocks.warped_brick_block|warped_brick_block|(Ljava/lang/String;Lnet/minecraft/block/material/Material;)V
+      @|com/Eternal_plasma/BlueBricks/blocks/warped_brick_block.java|220|226|String|class|java.lang.String|false
+      @|com/Eternal_plasma/BlueBricks/blocks/warped_brick_block.java|233|241|Material|class|net.minecraft.block.material.Material|false
+      @|com/Eternal_plasma/BlueBricks/blocks/warped_brick_block.java|265|269|name|param|com.Eternal_plasma.BlueBricks.blocks.warped_brick_block|warped_brick_block|(Ljava/lang/String;Lnet/minecraft/block/material/Material;)V|name|0
+      @|com/Eternal_plasma/BlueBricks/blocks/warped_brick_block.java|271|279|material|param|com.Eternal_plasma.BlueBricks.blocks.warped_brick_block|warped_brick_block|(Ljava/lang/String;Lnet/minecraft/block/material/Material;)V|material|1
+      @|com/Eternal_plasma/BlueBricks/blocks/warped_brick_block.java|285|297|setSoundType|method|net.minecraft.block.Block|setSoundType|(Lnet/minecraft/block/SoundType;)Lnet/minecraft/block/Block;
+      @|com/Eternal_plasma/BlueBricks/blocks/warped_brick_block.java|298|307|SoundType|class|net.minecraft.block.SoundType|false
+      @|com/Eternal_plasma/BlueBricks/blocks/warped_brick_block.java|308|313|STONE|field|net.minecraft.block.SoundType|STONE
+      @|com/Eternal_plasma/BlueBricks/blocks/warped_brick_block.java|319|330|setHardness|method|net.minecraft.block.Block|setHardness|(F)Lnet/minecraft/block/Block;
+      @|com/Eternal_plasma/BlueBricks/blocks/warped_brick_block.java|341|354|setResistance|method|net.minecraft.block.Block|setResistance|(F)Lnet/minecraft/block/Block;
+      @|com/Eternal_plasma/BlueBricks/blocks/warped_brick_block.java|367|382|setHarvestLevel|method|net.minecraft.block.Block|setHarvestLevel|(Ljava/lang/String;I)V
+      @|com/Eternal_plasma/BlueBricks/blocks/warped_brick_block.java|401|414|setLightLevel|method|net.minecraft.block.Block|setLightLevel|(F)Lnet/minecraft/block/Block;
+   Method End: warped_brick_block(Ljava/lang/String;Lnet/minecraft/block/material/Material;)V
+Class End  : com.Eternal_plasma.BlueBricks.blocks.warped_brick_block
+endProcessing "com/Eternal_plasma/BlueBricks/blocks/warped_brick_block.java"
+
+startProcessing "com/Eternal_plasma/BlueBricks/init/ModBlocks.java" md5: 9e9ad81d39a45af49018b397416d49fe
+@|com/Eternal_plasma/BlueBricks/init/ModBlocks.java|8|42|com.Eternal_plasma.BlueBricks.init|package|com.Eternal_plasma.BlueBricks.init|(file)
+Class Start: com.Eternal_plasma.BlueBricks.init.ModBlocks
+   @|com/Eternal_plasma/BlueBricks/init/ModBlocks.java|323|332|ModBlocks|class|com.Eternal_plasma.BlueBricks.init.ModBlocks|false
+   @|com/Eternal_plasma/BlueBricks/init/ModBlocks.java|366|371|Block|class|net.minecraft.block.Block|false
+   @|com/Eternal_plasma/BlueBricks/init/ModBlocks.java|361|365|List|class|java.util.List|false
+   @|com/Eternal_plasma/BlueBricks/init/ModBlocks.java|361|365|List|class|java.util.List|false
+   @|com/Eternal_plasma/BlueBricks/init/ModBlocks.java|366|371|Block|class|net.minecraft.block.Block|false
+   @|com/Eternal_plasma/BlueBricks/init/ModBlocks.java|373|379|BLOCKS|field|com.Eternal_plasma.BlueBricks.init.ModBlocks|BLOCKS|
+   @|com/Eternal_plasma/BlueBricks/init/ModBlocks.java|386|395|ArrayList|class|java.util.ArrayList|false
+   @|com/Eternal_plasma/BlueBricks/init/ModBlocks.java|396|401|Block|class|net.minecraft.block.Block|false
+   @|com/Eternal_plasma/BlueBricks/init/ModBlocks.java|428|433|Block|class|net.minecraft.block.Block|false
+   @|com/Eternal_plasma/BlueBricks/init/ModBlocks.java|428|433|Block|class|net.minecraft.block.Block|false
+   @|com/Eternal_plasma/BlueBricks/init/ModBlocks.java|434|452|WARPED_BRICK_BLOCK|field|com.Eternal_plasma.BlueBricks.init.ModBlocks|WARPED_BRICK_BLOCK|
+   @|com/Eternal_plasma/BlueBricks/init/ModBlocks.java|459|477|warped_brick_block|class|com.Eternal_plasma.BlueBricks.blocks.warped_brick_block|false
+   @|com/Eternal_plasma/BlueBricks/init/ModBlocks.java|500|508|Material|class|net.minecraft.block.material.Material|false
+   @|com/Eternal_plasma/BlueBricks/init/ModBlocks.java|509|513|ROCK|field|net.minecraft.block.material.Material|ROCK
+   @|com/Eternal_plasma/BlueBricks/init/ModBlocks.java|538|543|Block|class|net.minecraft.block.Block|false
+   @|com/Eternal_plasma/BlueBricks/init/ModBlocks.java|538|543|Block|class|net.minecraft.block.Block|false
+   @|com/Eternal_plasma/BlueBricks/init/ModBlocks.java|544|554|WARPED_ORE|field|com.Eternal_plasma.BlueBricks.init.ModBlocks|WARPED_ORE|
+   @|com/Eternal_plasma/BlueBricks/init/ModBlocks.java|561|571|Warped_ore|class|com.Eternal_plasma.BlueBricks.blocks.Warped_ore|false
+   @|com/Eternal_plasma/BlueBricks/init/ModBlocks.java|586|594|Material|class|net.minecraft.block.material.Material|false
+   @|com/Eternal_plasma/BlueBricks/init/ModBlocks.java|595|599|ROCK|field|net.minecraft.block.material.Material|ROCK
+Class End  : com.Eternal_plasma.BlueBricks.init.ModBlocks
+endProcessing "com/Eternal_plasma/BlueBricks/init/ModBlocks.java"
+
+startProcessing "com/Eternal_plasma/BlueBricks/init/ModItems.java" md5: 331b2c58b97464b6d355e3ba7d55e8f3
+@|com/Eternal_plasma/BlueBricks/init/ModItems.java|8|42|com.Eternal_plasma.BlueBricks.init|package|com.Eternal_plasma.BlueBricks.init|(file)
+Class Start: com.Eternal_plasma.BlueBricks.init.ModItems
+   @|com/Eternal_plasma/BlueBricks/init/ModItems.java|200|208|ModItems|class|com.Eternal_plasma.BlueBricks.init.ModItems|false
+   @|com/Eternal_plasma/BlueBricks/init/ModItems.java|237|241|Item|class|net.minecraft.item.Item|false
+   @|com/Eternal_plasma/BlueBricks/init/ModItems.java|232|236|List|class|java.util.List|false
+   @|com/Eternal_plasma/BlueBricks/init/ModItems.java|232|236|List|class|java.util.List|false
+   @|com/Eternal_plasma/BlueBricks/init/ModItems.java|237|241|Item|class|net.minecraft.item.Item|false
+   @|com/Eternal_plasma/BlueBricks/init/ModItems.java|243|248|ITEMS|field|com.Eternal_plasma.BlueBricks.init.ModItems|ITEMS|
+   @|com/Eternal_plasma/BlueBricks/init/ModItems.java|255|264|ArrayList|class|java.util.ArrayList|false
+   @|com/Eternal_plasma/BlueBricks/init/ModItems.java|265|269|Item|class|net.minecraft.item.Item|false
+   @|com/Eternal_plasma/BlueBricks/init/ModItems.java|295|299|Item|class|net.minecraft.item.Item|false
+   @|com/Eternal_plasma/BlueBricks/init/ModItems.java|295|299|Item|class|net.minecraft.item.Item|false
+   @|com/Eternal_plasma/BlueBricks/init/ModItems.java|300|312|WARPED_BRICK|field|com.Eternal_plasma.BlueBricks.init.ModItems|WARPED_BRICK|
+   @|com/Eternal_plasma/BlueBricks/init/ModItems.java|319|327|ItemBase|class|com.Eternal_plasma.BlueBricks.items.ItemBase|false
+Class End  : com.Eternal_plasma.BlueBricks.init.ModItems
+endProcessing "com/Eternal_plasma/BlueBricks/init/ModItems.java"
+
+startProcessing "com/Eternal_plasma/BlueBricks/items/ItemBase.java" md5: 7f7f80ffefd3d153d4dfc3ce391ee911
+@|com/Eternal_plasma/BlueBricks/items/ItemBase.java|8|43|com.Eternal_plasma.BlueBricks.items|package|com.Eternal_plasma.BlueBricks.items|(file)
+Class Start: com.Eternal_plasma.BlueBricks.items.ItemBase
+   @|com/Eternal_plasma/BlueBricks/items/ItemBase.java|297|305|ItemBase|class|com.Eternal_plasma.BlueBricks.items.ItemBase|false
+   @|com/Eternal_plasma/BlueBricks/items/ItemBase.java|314|318|Item|class|net.minecraft.item.Item|false
+   @|com/Eternal_plasma/BlueBricks/items/ItemBase.java|330|339|IHasModel|class|com.Eternal_plasma.BlueBricks.util.IHasModel|false
+   Method Start: ItemBase(Ljava/lang/String;)V
+      @|com/Eternal_plasma/BlueBricks/items/ItemBase.java|369|373|name|param|com.Eternal_plasma.BlueBricks.items.ItemBase|ItemBase|(Ljava/lang/String;)V|name|0
+      @|com/Eternal_plasma/BlueBricks/items/ItemBase.java|353|361|ItemBase|method|com.Eternal_plasma.BlueBricks.items.ItemBase|ItemBase|(Ljava/lang/String;)V
+      @|com/Eternal_plasma/BlueBricks/items/ItemBase.java|362|368|String|class|java.lang.String|false
+      @|com/Eternal_plasma/BlueBricks/items/ItemBase.java|382|400|setUnlocalizedName|method|net.minecraft.item.Item|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/item/Item;
+      @|com/Eternal_plasma/BlueBricks/items/ItemBase.java|401|405|name|param|com.Eternal_plasma.BlueBricks.items.ItemBase|ItemBase|(Ljava/lang/String;)V|name|0
+      @|com/Eternal_plasma/BlueBricks/items/ItemBase.java|411|426|setRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/registries/IForgeRegistryEntry;
+      @|com/Eternal_plasma/BlueBricks/items/ItemBase.java|427|431|name|param|com.Eternal_plasma.BlueBricks.items.ItemBase|ItemBase|(Ljava/lang/String;)V|name|0
+      @|com/Eternal_plasma/BlueBricks/items/ItemBase.java|437|451|setCreativeTab|method|net.minecraft.item.Item|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;
+      @|com/Eternal_plasma/BlueBricks/items/ItemBase.java|452|464|CreativeTabs|class|net.minecraft.creativetab.CreativeTabs|false
+      @|com/Eternal_plasma/BlueBricks/items/ItemBase.java|465|474|MATERIALS|field|net.minecraft.creativetab.CreativeTabs|MATERIALS
+      @|com/Eternal_plasma/BlueBricks/items/ItemBase.java|480|488|ModItems|class|com.Eternal_plasma.BlueBricks.init.ModItems|false
+      @|com/Eternal_plasma/BlueBricks/items/ItemBase.java|489|494|ITEMS|field|com.Eternal_plasma.BlueBricks.init.ModItems|ITEMS
+      @|com/Eternal_plasma/BlueBricks/items/ItemBase.java|495|498|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
+   Method End: ItemBase(Ljava/lang/String;)V
+   Method Start: registerModels()V
+      @|com/Eternal_plasma/BlueBricks/items/ItemBase.java|513|521|Override|class|java.lang.Override|false
+      @|com/Eternal_plasma/BlueBricks/items/ItemBase.java|536|550|registerModels|method|com.Eternal_plasma.BlueBricks.util.IHasModel|registerModels|()V
+      @|com/Eternal_plasma/BlueBricks/items/ItemBase.java|562|566|Main|class|com.Eternal_plasma.BlueBricks.Main|false
+      @|com/Eternal_plasma/BlueBricks/items/ItemBase.java|567|572|proxy|field|com.Eternal_plasma.BlueBricks.Main|proxy
+      @|com/Eternal_plasma/BlueBricks/items/ItemBase.java|573|593|RegisterItemRenderer|method|com.Eternal_plasma.BlueBricks.proxy.CommonProxy|RegisterItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V
+   Method End: registerModels()V
+Class End  : com.Eternal_plasma.BlueBricks.items.ItemBase
+endProcessing "com/Eternal_plasma/BlueBricks/items/ItemBase.java"
+
+startProcessing "com/Eternal_plasma/BlueBricks/proxy/ClientProxy.java" md5: 3a3d41ff094f7d0713932c7440f33aa0
+@|com/Eternal_plasma/BlueBricks/proxy/ClientProxy.java|8|43|com.Eternal_plasma.BlueBricks.proxy|package|com.Eternal_plasma.BlueBricks.proxy|(file)
+Class Start: com.Eternal_plasma.BlueBricks.proxy.ClientProxy
+   @|com/Eternal_plasma/BlueBricks/proxy/ClientProxy.java|222|233|ClientProxy|class|com.Eternal_plasma.BlueBricks.proxy.ClientProxy|false
+   @|com/Eternal_plasma/BlueBricks/proxy/ClientProxy.java|242|253|CommonProxy|class|com.Eternal_plasma.BlueBricks.proxy.CommonProxy|false
+   Method Start: RegisterItemRenderer(Lnet/minecraft/item/Item;ILjava/lang/String;)V
+      @|com/Eternal_plasma/BlueBricks/proxy/ClientProxy.java|298|302|item|param|com.Eternal_plasma.BlueBricks.proxy.ClientProxy|RegisterItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V|item|0
+      @|com/Eternal_plasma/BlueBricks/proxy/ClientProxy.java|308|312|meta|param|com.Eternal_plasma.BlueBricks.proxy.ClientProxy|RegisterItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V|meta|1
+      @|com/Eternal_plasma/BlueBricks/proxy/ClientProxy.java|321|323|id|param|com.Eternal_plasma.BlueBricks.proxy.ClientProxy|RegisterItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V|id|2
+      @|com/Eternal_plasma/BlueBricks/proxy/ClientProxy.java|272|292|RegisterItemRenderer|method|com.Eternal_plasma.BlueBricks.proxy.CommonProxy|RegisterItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V
+      @|com/Eternal_plasma/BlueBricks/proxy/ClientProxy.java|293|297|Item|class|net.minecraft.item.Item|false
+      @|com/Eternal_plasma/BlueBricks/proxy/ClientProxy.java|314|320|String|class|java.lang.String|false
+      @|com/Eternal_plasma/BlueBricks/proxy/ClientProxy.java|342|353|ModelLoader|class|net.minecraftforge.client.model.ModelLoader|false
+      @|com/Eternal_plasma/BlueBricks/proxy/ClientProxy.java|354|384|setCustomModelResourceLocation|method|net.minecraftforge.client.model.ModelLoader|setCustomModelResourceLocation|(Lnet/minecraft/item/Item;ILnet/minecraft/client/renderer/block/model/ModelResourceLocation;)V
+      @|com/Eternal_plasma/BlueBricks/proxy/ClientProxy.java|385|389|item|param|com.Eternal_plasma.BlueBricks.proxy.ClientProxy|RegisterItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V|item|0
+      @|com/Eternal_plasma/BlueBricks/proxy/ClientProxy.java|391|395|meta|param|com.Eternal_plasma.BlueBricks.proxy.ClientProxy|RegisterItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V|meta|1
+      @|com/Eternal_plasma/BlueBricks/proxy/ClientProxy.java|401|422|ModelResourceLocation|class|net.minecraft.client.renderer.block.model.ModelResourceLocation|false
+      @|com/Eternal_plasma/BlueBricks/proxy/ClientProxy.java|423|427|item|param|com.Eternal_plasma.BlueBricks.proxy.ClientProxy|RegisterItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V|item|0
+      @|com/Eternal_plasma/BlueBricks/proxy/ClientProxy.java|428|443|getRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry|getRegistryName|()Lnet/minecraft/util/ResourceLocation;
+      @|com/Eternal_plasma/BlueBricks/proxy/ClientProxy.java|447|449|id|param|com.Eternal_plasma.BlueBricks.proxy.ClientProxy|RegisterItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V|id|2
+   Method End: RegisterItemRenderer(Lnet/minecraft/item/Item;ILjava/lang/String;)V
+Class End  : com.Eternal_plasma.BlueBricks.proxy.ClientProxy
+endProcessing "com/Eternal_plasma/BlueBricks/proxy/ClientProxy.java"
+
+startProcessing "com/Eternal_plasma/BlueBricks/proxy/CommonProxy.java" md5: 37888588a203b040a5a4d49f4e74900a
+@|com/Eternal_plasma/BlueBricks/proxy/CommonProxy.java|8|43|com.Eternal_plasma.BlueBricks.proxy|package|com.Eternal_plasma.BlueBricks.proxy|(file)
+Class Start: com.Eternal_plasma.BlueBricks.proxy.CommonProxy
+   @|com/Eternal_plasma/BlueBricks/proxy/CommonProxy.java|96|107|CommonProxy|class|com.Eternal_plasma.BlueBricks.proxy.CommonProxy|false
+   Method Start: RegisterItemRenderer(Lnet/minecraft/item/Item;ILjava/lang/String;)V
+      @|com/Eternal_plasma/BlueBricks/proxy/CommonProxy.java|150|154|item|param|com.Eternal_plasma.BlueBricks.proxy.CommonProxy|RegisterItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V|item|0
+      @|com/Eternal_plasma/BlueBricks/proxy/CommonProxy.java|160|164|meta|param|com.Eternal_plasma.BlueBricks.proxy.CommonProxy|RegisterItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V|meta|1
+      @|com/Eternal_plasma/BlueBricks/proxy/CommonProxy.java|173|175|id|param|com.Eternal_plasma.BlueBricks.proxy.CommonProxy|RegisterItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V|id|2
+      @|com/Eternal_plasma/BlueBricks/proxy/CommonProxy.java|124|144|RegisterItemRenderer|method|com.Eternal_plasma.BlueBricks.proxy.CommonProxy|RegisterItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V
+      @|com/Eternal_plasma/BlueBricks/proxy/CommonProxy.java|145|149|Item|class|net.minecraft.item.Item|false
+      @|com/Eternal_plasma/BlueBricks/proxy/CommonProxy.java|166|172|String|class|java.lang.String|false
+   Method End: RegisterItemRenderer(Lnet/minecraft/item/Item;ILjava/lang/String;)V
+Class End  : com.Eternal_plasma.BlueBricks.proxy.CommonProxy
+endProcessing "com/Eternal_plasma/BlueBricks/proxy/CommonProxy.java"
+
+startProcessing "com/Eternal_plasma/BlueBricks/util/IHasModel.java" md5: 5493bf4acc80f72d5f11082ed62db18a
+@|com/Eternal_plasma/BlueBricks/util/IHasModel.java|8|42|com.Eternal_plasma.BlueBricks.util|package|com.Eternal_plasma.BlueBricks.util|(file)
+Class Start: com.Eternal_plasma.BlueBricks.util.IHasModel
+   @|com/Eternal_plasma/BlueBricks/util/IHasModel.java|64|73|IHasModel|class|com.Eternal_plasma.BlueBricks.util.IHasModel|false
+   Method Start: registerModels()V
+      @|com/Eternal_plasma/BlueBricks/util/IHasModel.java|92|106|registerModels|method|com.Eternal_plasma.BlueBricks.util.IHasModel|registerModels|()V
+   Method End: registerModels()V
+Class End  : com.Eternal_plasma.BlueBricks.util.IHasModel
+endProcessing "com/Eternal_plasma/BlueBricks/util/IHasModel.java"
+
+startProcessing "com/Eternal_plasma/BlueBricks/util/Refrence.java" md5: b173e0b18742f8df5feeb24d0fdd48a7
+@|com/Eternal_plasma/BlueBricks/util/Refrence.java|8|42|com.Eternal_plasma.BlueBricks.util|package|com.Eternal_plasma.BlueBricks.util|(file)
+Class Start: com.Eternal_plasma.BlueBricks.util.Refrence
+   @|com/Eternal_plasma/BlueBricks/util/Refrence.java|60|68|Refrence|class|com.Eternal_plasma.BlueBricks.util.Refrence|false
+   @|com/Eternal_plasma/BlueBricks/util/Refrence.java|95|101|String|class|java.lang.String|false
+   @|com/Eternal_plasma/BlueBricks/util/Refrence.java|95|101|String|class|java.lang.String|false
+   @|com/Eternal_plasma/BlueBricks/util/Refrence.java|102|108|MOD_ID|field|com.Eternal_plasma.BlueBricks.util.Refrence|MOD_ID|
+   @|com/Eternal_plasma/BlueBricks/util/Refrence.java|139|145|String|class|java.lang.String|false
+   @|com/Eternal_plasma/BlueBricks/util/Refrence.java|139|145|String|class|java.lang.String|false
+   @|com/Eternal_plasma/BlueBricks/util/Refrence.java|146|150|NAME|field|com.Eternal_plasma.BlueBricks.util.Refrence|NAME|
+   @|com/Eternal_plasma/BlueBricks/util/Refrence.java|189|195|String|class|java.lang.String|false
+   @|com/Eternal_plasma/BlueBricks/util/Refrence.java|189|195|String|class|java.lang.String|false
+   @|com/Eternal_plasma/BlueBricks/util/Refrence.java|196|203|VERSION|field|com.Eternal_plasma.BlueBricks.util.Refrence|VERSION|
+   @|com/Eternal_plasma/BlueBricks/util/Refrence.java|235|241|String|class|java.lang.String|false
+   @|com/Eternal_plasma/BlueBricks/util/Refrence.java|235|241|String|class|java.lang.String|false
+   @|com/Eternal_plasma/BlueBricks/util/Refrence.java|242|258|ACCEPTED_VIRSONS|field|com.Eternal_plasma.BlueBricks.util.Refrence|ACCEPTED_VIRSONS|
+   @|com/Eternal_plasma/BlueBricks/util/Refrence.java|295|301|String|class|java.lang.String|false
+   @|com/Eternal_plasma/BlueBricks/util/Refrence.java|295|301|String|class|java.lang.String|false
+   @|com/Eternal_plasma/BlueBricks/util/Refrence.java|302|320|CLIENT_PROXY_CLASS|field|com.Eternal_plasma.BlueBricks.util.Refrence|CLIENT_PROXY_CLASS|
+   @|com/Eternal_plasma/BlueBricks/util/Refrence.java|396|402|String|class|java.lang.String|false
+   @|com/Eternal_plasma/BlueBricks/util/Refrence.java|396|402|String|class|java.lang.String|false
+   @|com/Eternal_plasma/BlueBricks/util/Refrence.java|403|421|COMMON_PROXY_CLASS|field|com.Eternal_plasma.BlueBricks.util.Refrence|COMMON_PROXY_CLASS|
+Class End  : com.Eternal_plasma.BlueBricks.util.Refrence
+endProcessing "com/Eternal_plasma/BlueBricks/util/Refrence.java"
+
+startProcessing "com/Eternal_plasma/BlueBricks/util/handlers/RegistryHandler.java" md5: b768f5667b857714d690ef997fd19a75
+@|com/Eternal_plasma/BlueBricks/util/handlers/RegistryHandler.java|8|51|com.Eternal_plasma.BlueBricks.util.handlers|package|com.Eternal_plasma.BlueBricks.util.handlers|(file)
+Class Start: com.Eternal_plasma.BlueBricks.util.handlers.RegistryHandler
+   @|com/Eternal_plasma/BlueBricks/util/handlers/RegistryHandler.java|527|545|EventBusSubscriber|class|net.minecraftforge.fml.common.Mod.EventBusSubscriber|false
+   @|com/Eternal_plasma/BlueBricks/util/handlers/RegistryHandler.java|560|575|RegistryHandler|class|com.Eternal_plasma.BlueBricks.util.handlers.RegistryHandler|false
+   Method Start: onItemRegister(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+      @|com/Eternal_plasma/BlueBricks/util/handlers/RegistryHandler.java|663|668|event|param|com.Eternal_plasma.BlueBricks.util.handlers.RegistryHandler|onItemRegister|(Lnet/minecraftforge/event/RegistryEvent$Register;)V|event|0
+      @|com/Eternal_plasma/BlueBricks/util/handlers/RegistryHandler.java|583|597|SubscribeEvent|class|net.minecraftforge.fml.common.eventhandler.SubscribeEvent|false
+      @|com/Eternal_plasma/BlueBricks/util/handlers/RegistryHandler.java|619|633|onItemRegister|method|com.Eternal_plasma.BlueBricks.util.handlers.RegistryHandler|onItemRegister|(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+      @|com/Eternal_plasma/BlueBricks/util/handlers/RegistryHandler.java|634|656|RegistryEvent.Register|class|net.minecraftforge.event.RegistryEvent.Register|false
+      @|com/Eternal_plasma/BlueBricks/util/handlers/RegistryHandler.java|657|661|Item|class|net.minecraft.item.Item|false
+      @|com/Eternal_plasma/BlueBricks/util/handlers/RegistryHandler.java|677|682|event|param|com.Eternal_plasma.BlueBricks.util.handlers.RegistryHandler|onItemRegister|(Lnet/minecraftforge/event/RegistryEvent$Register;)V|event|0
+      @|com/Eternal_plasma/BlueBricks/util/handlers/RegistryHandler.java|683|694|getRegistry|method|net.minecraftforge.event.RegistryEvent.Register|getRegistry|()Lnet/minecraftforge/registries/IForgeRegistry;
+      @|com/Eternal_plasma/BlueBricks/util/handlers/RegistryHandler.java|697|708|registerAll|method|net.minecraftforge.registries.IForgeRegistry|registerAll|([Lnet/minecraftforge/registries/IForgeRegistryEntry;)V
+      @|com/Eternal_plasma/BlueBricks/util/handlers/RegistryHandler.java|709|717|ModItems|class|com.Eternal_plasma.BlueBricks.init.ModItems|false
+      @|com/Eternal_plasma/BlueBricks/util/handlers/RegistryHandler.java|718|723|ITEMS|field|com.Eternal_plasma.BlueBricks.init.ModItems|ITEMS
+      @|com/Eternal_plasma/BlueBricks/util/handlers/RegistryHandler.java|724|731|toArray|method|java.util.Collection|toArray|([Ljava/lang/Object;)[Ljava/lang/Object;
+      @|com/Eternal_plasma/BlueBricks/util/handlers/RegistryHandler.java|736|740|Item|class|net.minecraft.item.Item|false
+   Method End: onItemRegister(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+   Method Start: onBlockRegister(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+      @|com/Eternal_plasma/BlueBricks/util/handlers/RegistryHandler.java|843|848|event|param|com.Eternal_plasma.BlueBricks.util.handlers.RegistryHandler|onBlockRegister|(Lnet/minecraftforge/event/RegistryEvent$Register;)V|event|0
+      @|com/Eternal_plasma/BlueBricks/util/handlers/RegistryHandler.java|761|775|SubscribeEvent|class|net.minecraftforge.fml.common.eventhandler.SubscribeEvent|false
+      @|com/Eternal_plasma/BlueBricks/util/handlers/RegistryHandler.java|797|812|onBlockRegister|method|com.Eternal_plasma.BlueBricks.util.handlers.RegistryHandler|onBlockRegister|(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+      @|com/Eternal_plasma/BlueBricks/util/handlers/RegistryHandler.java|813|835|RegistryEvent.Register|class|net.minecraftforge.event.RegistryEvent.Register|false
+      @|com/Eternal_plasma/BlueBricks/util/handlers/RegistryHandler.java|836|841|Block|class|net.minecraft.block.Block|false
+      @|com/Eternal_plasma/BlueBricks/util/handlers/RegistryHandler.java|857|862|event|param|com.Eternal_plasma.BlueBricks.util.handlers.RegistryHandler|onBlockRegister|(Lnet/minecraftforge/event/RegistryEvent$Register;)V|event|0
+      @|com/Eternal_plasma/BlueBricks/util/handlers/RegistryHandler.java|863|874|getRegistry|method|net.minecraftforge.event.RegistryEvent.Register|getRegistry|()Lnet/minecraftforge/registries/IForgeRegistry;
+      @|com/Eternal_plasma/BlueBricks/util/handlers/RegistryHandler.java|877|888|registerAll|method|net.minecraftforge.registries.IForgeRegistry|registerAll|([Lnet/minecraftforge/registries/IForgeRegistryEntry;)V
+      @|com/Eternal_plasma/BlueBricks/util/handlers/RegistryHandler.java|889|898|ModBlocks|class|com.Eternal_plasma.BlueBricks.init.ModBlocks|false
+      @|com/Eternal_plasma/BlueBricks/util/handlers/RegistryHandler.java|899|905|BLOCKS|field|com.Eternal_plasma.BlueBricks.init.ModBlocks|BLOCKS
+      @|com/Eternal_plasma/BlueBricks/util/handlers/RegistryHandler.java|906|913|toArray|method|java.util.Collection|toArray|([Ljava/lang/Object;)[Ljava/lang/Object;
+      @|com/Eternal_plasma/BlueBricks/util/handlers/RegistryHandler.java|918|923|Block|class|net.minecraft.block.Block|false
+   Method End: onBlockRegister(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+   Method Start: onModelRegister(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V
+      @|com/Eternal_plasma/BlueBricks/util/handlers/RegistryHandler.java|1018|1023|event|param|com.Eternal_plasma.BlueBricks.util.handlers.RegistryHandler|onModelRegister|(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V|event|0
+      @|com/Eternal_plasma/BlueBricks/util/handlers/RegistryHandler.java|947|961|SubscribeEvent|class|net.minecraftforge.fml.common.eventhandler.SubscribeEvent|false
+      @|com/Eternal_plasma/BlueBricks/util/handlers/RegistryHandler.java|983|998|onModelRegister|method|com.Eternal_plasma.BlueBricks.util.handlers.RegistryHandler|onModelRegister|(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V
+      @|com/Eternal_plasma/BlueBricks/util/handlers/RegistryHandler.java|999|1017|ModelRegistryEvent|class|net.minecraftforge.client.event.ModelRegistryEvent|false
+      @|com/Eternal_plasma/BlueBricks/util/handlers/RegistryHandler.java|1034|1038|Item|class|net.minecraft.item.Item|false
+      @|com/Eternal_plasma/BlueBricks/util/handlers/RegistryHandler.java|1046|1054|ModItems|class|com.Eternal_plasma.BlueBricks.init.ModItems|false
+      @|com/Eternal_plasma/BlueBricks/util/handlers/RegistryHandler.java|1055|1060|ITEMS|field|com.Eternal_plasma.BlueBricks.init.ModItems|ITEMS
+      @|com/Eternal_plasma/BlueBricks/util/handlers/RegistryHandler.java|1090|1099|IHasModel|class|com.Eternal_plasma.BlueBricks.util.IHasModel|false
+      @|com/Eternal_plasma/BlueBricks/util/handlers/RegistryHandler.java|1114|1123|IHasModel|class|com.Eternal_plasma.BlueBricks.util.IHasModel|false
+      @|com/Eternal_plasma/BlueBricks/util/handlers/RegistryHandler.java|1130|1144|registerModels|method|com.Eternal_plasma.BlueBricks.util.IHasModel|registerModels|()V
+      @|com/Eternal_plasma/BlueBricks/util/handlers/RegistryHandler.java|1177|1182|Block|class|net.minecraft.block.Block|false
+      @|com/Eternal_plasma/BlueBricks/util/handlers/RegistryHandler.java|1191|1200|ModBlocks|class|com.Eternal_plasma.BlueBricks.init.ModBlocks|false
+      @|com/Eternal_plasma/BlueBricks/util/handlers/RegistryHandler.java|1201|1207|BLOCKS|field|com.Eternal_plasma.BlueBricks.init.ModBlocks|BLOCKS
+      @|com/Eternal_plasma/BlueBricks/util/handlers/RegistryHandler.java|1240|1249|IHasModel|class|com.Eternal_plasma.BlueBricks.util.IHasModel|false
+      @|com/Eternal_plasma/BlueBricks/util/handlers/RegistryHandler.java|1266|1275|IHasModel|class|com.Eternal_plasma.BlueBricks.util.IHasModel|false
+      @|com/Eternal_plasma/BlueBricks/util/handlers/RegistryHandler.java|1283|1297|registerModels|method|com.Eternal_plasma.BlueBricks.util.IHasModel|registerModels|()V
+   Method End: onModelRegister(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V
+Class End  : com.Eternal_plasma.BlueBricks.util.handlers.RegistryHandler
+endProcessing "com/Eternal_plasma/BlueBricks/util/handlers/RegistryHandler.java"
+
+startProcessing "com/Eternal_plasma/BlueBricks/world/ModWorldGen.java" md5: def188a5f4440365985f010ab9d3cf40
+@|com/Eternal_plasma/BlueBricks/world/ModWorldGen.java|8|43|com.Eternal_plasma.BlueBricks.world|package|com.Eternal_plasma.BlueBricks.world|(file)
+Class Start: com.Eternal_plasma.BlueBricks.world.ModWorldGen
+   @|com/Eternal_plasma/BlueBricks/world/ModWorldGen.java|573|584|ModWorldGen|class|com.Eternal_plasma.BlueBricks.world.ModWorldGen|false
+   @|com/Eternal_plasma/BlueBricks/world/ModWorldGen.java|596|611|IWorldGenerator|class|net.minecraftforge.fml.common.IWorldGenerator|false
+   Method Start: generate(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V
+      @|com/Eternal_plasma/BlueBricks/world/ModWorldGen.java|659|665|random|param|com.Eternal_plasma.BlueBricks.world.ModWorldGen|generate|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|random|0
+      @|com/Eternal_plasma/BlueBricks/world/ModWorldGen.java|671|677|chunkX|param|com.Eternal_plasma.BlueBricks.world.ModWorldGen|generate|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|chunkX|1
+      @|com/Eternal_plasma/BlueBricks/world/ModWorldGen.java|683|689|chunkZ|param|com.Eternal_plasma.BlueBricks.world.ModWorldGen|generate|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|chunkZ|2
+      @|com/Eternal_plasma/BlueBricks/world/ModWorldGen.java|697|702|world|param|com.Eternal_plasma.BlueBricks.world.ModWorldGen|generate|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|world|3
+      @|com/Eternal_plasma/BlueBricks/world/ModWorldGen.java|720|734|chunkgenerator|param|com.Eternal_plasma.BlueBricks.world.ModWorldGen|generate|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|chunkgenerator|4
+      @|com/Eternal_plasma/BlueBricks/world/ModWorldGen.java|751|764|chunkprovider|param|com.Eternal_plasma.BlueBricks.world.ModWorldGen|generate|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|chunkprovider|5
+      @|com/Eternal_plasma/BlueBricks/world/ModWorldGen.java|620|628|Override|class|java.lang.Override|false
+      @|com/Eternal_plasma/BlueBricks/world/ModWorldGen.java|643|651|generate|method|net.minecraftforge.fml.common.IWorldGenerator|generate|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V
+      @|com/Eternal_plasma/BlueBricks/world/ModWorldGen.java|652|658|Random|class|java.util.Random|false
+      @|com/Eternal_plasma/BlueBricks/world/ModWorldGen.java|691|696|World|class|net.minecraft.world.World|false
+      @|com/Eternal_plasma/BlueBricks/world/ModWorldGen.java|704|719|IChunkGenerator|class|net.minecraft.world.gen.IChunkGenerator|false
+      @|com/Eternal_plasma/BlueBricks/world/ModWorldGen.java|736|750|IChunkProvider|class|net.minecraft.world.chunk.IChunkProvider|false
+      @|com/Eternal_plasma/BlueBricks/world/ModWorldGen.java|781|786|world|param|com.Eternal_plasma.BlueBricks.world.ModWorldGen|generate|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|world|3
+      @|com/Eternal_plasma/BlueBricks/world/ModWorldGen.java|787|795|provider|field|net.minecraft.world.World|provider
+      @|com/Eternal_plasma/BlueBricks/world/ModWorldGen.java|796|808|getDimension|method|net.minecraft.world.WorldProvider|getDimension|()I
+      @|com/Eternal_plasma/BlueBricks/world/ModWorldGen.java|828|845|generateOverworld|method|com.Eternal_plasma.BlueBricks.world.ModWorldGen|generateOverworld|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V
+      @|com/Eternal_plasma/BlueBricks/world/ModWorldGen.java|846|852|random|param|com.Eternal_plasma.BlueBricks.world.ModWorldGen|generate|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|random|0
+      @|com/Eternal_plasma/BlueBricks/world/ModWorldGen.java|854|860|chunkX|param|com.Eternal_plasma.BlueBricks.world.ModWorldGen|generate|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|chunkX|1
+      @|com/Eternal_plasma/BlueBricks/world/ModWorldGen.java|862|868|chunkZ|param|com.Eternal_plasma.BlueBricks.world.ModWorldGen|generate|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|chunkZ|2
+      @|com/Eternal_plasma/BlueBricks/world/ModWorldGen.java|870|875|world|param|com.Eternal_plasma.BlueBricks.world.ModWorldGen|generate|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|world|3
+      @|com/Eternal_plasma/BlueBricks/world/ModWorldGen.java|877|891|chunkgenerator|param|com.Eternal_plasma.BlueBricks.world.ModWorldGen|generate|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|chunkgenerator|4
+      @|com/Eternal_plasma/BlueBricks/world/ModWorldGen.java|893|906|chunkprovider|param|com.Eternal_plasma.BlueBricks.world.ModWorldGen|generate|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|chunkprovider|5
+   Method End: generate(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V
+   Method Start: generateOverworld(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V
+      @|com/Eternal_plasma/BlueBricks/world/ModWorldGen.java|969|975|random|param|com.Eternal_plasma.BlueBricks.world.ModWorldGen|generateOverworld|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|random|0
+      @|com/Eternal_plasma/BlueBricks/world/ModWorldGen.java|981|987|chunkX|param|com.Eternal_plasma.BlueBricks.world.ModWorldGen|generateOverworld|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|chunkX|1
+      @|com/Eternal_plasma/BlueBricks/world/ModWorldGen.java|993|999|chunkZ|param|com.Eternal_plasma.BlueBricks.world.ModWorldGen|generateOverworld|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|chunkZ|2
+      @|com/Eternal_plasma/BlueBricks/world/ModWorldGen.java|1007|1012|world|param|com.Eternal_plasma.BlueBricks.world.ModWorldGen|generateOverworld|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|world|3
+      @|com/Eternal_plasma/BlueBricks/world/ModWorldGen.java|1030|1044|chunkgenerator|param|com.Eternal_plasma.BlueBricks.world.ModWorldGen|generateOverworld|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|chunkgenerator|4
+      @|com/Eternal_plasma/BlueBricks/world/ModWorldGen.java|1061|1074|chunkprovider|param|com.Eternal_plasma.BlueBricks.world.ModWorldGen|generateOverworld|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|chunkprovider|5
+      @|com/Eternal_plasma/BlueBricks/world/ModWorldGen.java|944|961|generateOverworld|method|com.Eternal_plasma.BlueBricks.world.ModWorldGen|generateOverworld|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V
+      @|com/Eternal_plasma/BlueBricks/world/ModWorldGen.java|962|968|Random|class|java.util.Random|false
+      @|com/Eternal_plasma/BlueBricks/world/ModWorldGen.java|1001|1006|World|class|net.minecraft.world.World|false
+      @|com/Eternal_plasma/BlueBricks/world/ModWorldGen.java|1014|1029|IChunkGenerator|class|net.minecraft.world.gen.IChunkGenerator|false
+      @|com/Eternal_plasma/BlueBricks/world/ModWorldGen.java|1046|1060|IChunkProvider|class|net.minecraft.world.chunk.IChunkProvider|false
+      @|com/Eternal_plasma/BlueBricks/world/ModWorldGen.java|1084|1095|generateOre|method|com.Eternal_plasma.BlueBricks.world.ModWorldGen|generateOre|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/World;Ljava/util/Random;IIIIII)V
+      @|com/Eternal_plasma/BlueBricks/world/ModWorldGen.java|1096|1105|ModBlocks|class|com.Eternal_plasma.BlueBricks.init.ModBlocks|false
+      @|com/Eternal_plasma/BlueBricks/world/ModWorldGen.java|1106|1116|WARPED_ORE|field|com.Eternal_plasma.BlueBricks.init.ModBlocks|WARPED_ORE
+      @|com/Eternal_plasma/BlueBricks/world/ModWorldGen.java|1117|1132|getDefaultState|method|net.minecraft.block.Block|getDefaultState|()Lnet/minecraft/block/state/IBlockState;
+      @|com/Eternal_plasma/BlueBricks/world/ModWorldGen.java|1136|1141|world|param|com.Eternal_plasma.BlueBricks.world.ModWorldGen|generateOverworld|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|world|3
+      @|com/Eternal_plasma/BlueBricks/world/ModWorldGen.java|1143|1149|random|param|com.Eternal_plasma.BlueBricks.world.ModWorldGen|generateOverworld|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|random|0
+      @|com/Eternal_plasma/BlueBricks/world/ModWorldGen.java|1151|1157|chunkX|param|com.Eternal_plasma.BlueBricks.world.ModWorldGen|generateOverworld|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|chunkX|1
+      @|com/Eternal_plasma/BlueBricks/world/ModWorldGen.java|1164|1170|chunkZ|param|com.Eternal_plasma.BlueBricks.world.ModWorldGen|generateOverworld|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|chunkZ|2
+      @|com/Eternal_plasma/BlueBricks/world/ModWorldGen.java|1185|1191|random|param|com.Eternal_plasma.BlueBricks.world.ModWorldGen|generateOverworld|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|random|0
+      @|com/Eternal_plasma/BlueBricks/world/ModWorldGen.java|1192|1199|nextInt|method|java.util.Random|nextInt|(I)I
+   Method End: generateOverworld(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V
+   Method Start: generateOre(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/World;Ljava/util/Random;IIIIII)V
+      @|com/Eternal_plasma/BlueBricks/world/ModWorldGen.java|1263|1266|ore|param|com.Eternal_plasma.BlueBricks.world.ModWorldGen|generateOre|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/World;Ljava/util/Random;IIIIII)V|ore|0
+      @|com/Eternal_plasma/BlueBricks/world/ModWorldGen.java|1274|1279|world|param|com.Eternal_plasma.BlueBricks.world.ModWorldGen|generateOre|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/World;Ljava/util/Random;IIIIII)V|world|1
+      @|com/Eternal_plasma/BlueBricks/world/ModWorldGen.java|1288|1294|random|param|com.Eternal_plasma.BlueBricks.world.ModWorldGen|generateOre|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/World;Ljava/util/Random;IIIIII)V|random|2
+      @|com/Eternal_plasma/BlueBricks/world/ModWorldGen.java|1300|1301|x|param|com.Eternal_plasma.BlueBricks.world.ModWorldGen|generateOre|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/World;Ljava/util/Random;IIIIII)V|x|3
+      @|com/Eternal_plasma/BlueBricks/world/ModWorldGen.java|1307|1308|z|param|com.Eternal_plasma.BlueBricks.world.ModWorldGen|generateOre|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/World;Ljava/util/Random;IIIIII)V|z|4
+      @|com/Eternal_plasma/BlueBricks/world/ModWorldGen.java|1314|1318|minY|param|com.Eternal_plasma.BlueBricks.world.ModWorldGen|generateOre|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/World;Ljava/util/Random;IIIIII)V|minY|5
+      @|com/Eternal_plasma/BlueBricks/world/ModWorldGen.java|1324|1328|maxY|param|com.Eternal_plasma.BlueBricks.world.ModWorldGen|generateOre|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/World;Ljava/util/Random;IIIIII)V|maxY|6
+      @|com/Eternal_plasma/BlueBricks/world/ModWorldGen.java|1334|1338|size|param|com.Eternal_plasma.BlueBricks.world.ModWorldGen|generateOre|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/World;Ljava/util/Random;IIIIII)V|size|7
+      @|com/Eternal_plasma/BlueBricks/world/ModWorldGen.java|1344|1351|chances|param|com.Eternal_plasma.BlueBricks.world.ModWorldGen|generateOre|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/World;Ljava/util/Random;IIIIII)V|chances|8
+      @|com/Eternal_plasma/BlueBricks/world/ModWorldGen.java|1239|1250|generateOre|method|com.Eternal_plasma.BlueBricks.world.ModWorldGen|generateOre|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/World;Ljava/util/Random;IIIIII)V
+      @|com/Eternal_plasma/BlueBricks/world/ModWorldGen.java|1251|1262|IBlockState|class|net.minecraft.block.state.IBlockState|false
+      @|com/Eternal_plasma/BlueBricks/world/ModWorldGen.java|1268|1273|World|class|net.minecraft.world.World|false
+      @|com/Eternal_plasma/BlueBricks/world/ModWorldGen.java|1281|1287|Random|class|java.util.Random|false
+      @|com/Eternal_plasma/BlueBricks/world/ModWorldGen.java|1375|1379|maxY|param|com.Eternal_plasma.BlueBricks.world.ModWorldGen|generateOre|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/World;Ljava/util/Random;IIIIII)V|maxY|6
+      @|com/Eternal_plasma/BlueBricks/world/ModWorldGen.java|1382|1386|minY|param|com.Eternal_plasma.BlueBricks.world.ModWorldGen|generateOre|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/World;Ljava/util/Random;IIIIII)V|minY|5
+      @|com/Eternal_plasma/BlueBricks/world/ModWorldGen.java|1415|1422|chances|param|com.Eternal_plasma.BlueBricks.world.ModWorldGen|generateOre|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/World;Ljava/util/Random;IIIIII)V|chances|8
+      @|com/Eternal_plasma/BlueBricks/world/ModWorldGen.java|1439|1447|BlockPos|class|net.minecraft.util.math.BlockPos|false
+      @|com/Eternal_plasma/BlueBricks/world/ModWorldGen.java|1458|1466|BlockPos|class|net.minecraft.util.math.BlockPos|false
+      @|com/Eternal_plasma/BlueBricks/world/ModWorldGen.java|1467|1468|x|param|com.Eternal_plasma.BlueBricks.world.ModWorldGen|generateOre|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/World;Ljava/util/Random;IIIIII)V|x|3
+      @|com/Eternal_plasma/BlueBricks/world/ModWorldGen.java|1471|1477|random|param|com.Eternal_plasma.BlueBricks.world.ModWorldGen|generateOre|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/World;Ljava/util/Random;IIIIII)V|random|2
+      @|com/Eternal_plasma/BlueBricks/world/ModWorldGen.java|1478|1485|nextInt|method|java.util.Random|nextInt|(I)I
+      @|com/Eternal_plasma/BlueBricks/world/ModWorldGen.java|1491|1495|minY|param|com.Eternal_plasma.BlueBricks.world.ModWorldGen|generateOre|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/World;Ljava/util/Random;IIIIII)V|minY|5
+      @|com/Eternal_plasma/BlueBricks/world/ModWorldGen.java|1498|1504|random|param|com.Eternal_plasma.BlueBricks.world.ModWorldGen|generateOre|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/World;Ljava/util/Random;IIIIII)V|random|2
+      @|com/Eternal_plasma/BlueBricks/world/ModWorldGen.java|1505|1512|nextInt|method|java.util.Random|nextInt|(I)I
+      @|com/Eternal_plasma/BlueBricks/world/ModWorldGen.java|1522|1523|z|param|com.Eternal_plasma.BlueBricks.world.ModWorldGen|generateOre|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/World;Ljava/util/Random;IIIIII)V|z|4
+      @|com/Eternal_plasma/BlueBricks/world/ModWorldGen.java|1526|1532|random|param|com.Eternal_plasma.BlueBricks.world.ModWorldGen|generateOre|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/World;Ljava/util/Random;IIIIII)V|random|2
+      @|com/Eternal_plasma/BlueBricks/world/ModWorldGen.java|1533|1540|nextInt|method|java.util.Random|nextInt|(I)I
+      @|com/Eternal_plasma/BlueBricks/world/ModWorldGen.java|1551|1566|WorldGenMinable|class|net.minecraft.world.gen.feature.WorldGenMinable|false
+      @|com/Eternal_plasma/BlueBricks/world/ModWorldGen.java|1584|1599|WorldGenMinable|class|net.minecraft.world.gen.feature.WorldGenMinable|false
+      @|com/Eternal_plasma/BlueBricks/world/ModWorldGen.java|1600|1603|ore|param|com.Eternal_plasma.BlueBricks.world.ModWorldGen|generateOre|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/World;Ljava/util/Random;IIIIII)V|ore|0
+      @|com/Eternal_plasma/BlueBricks/world/ModWorldGen.java|1604|1608|size|param|com.Eternal_plasma.BlueBricks.world.ModWorldGen|generateOre|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/World;Ljava/util/Random;IIIIII)V|size|7
+      @|com/Eternal_plasma/BlueBricks/world/ModWorldGen.java|1609|1621|BlockMatcher|class|net.minecraft.block.state.pattern.BlockMatcher|false
+      @|com/Eternal_plasma/BlueBricks/world/ModWorldGen.java|1622|1630|forBlock|method|net.minecraft.block.state.pattern.BlockMatcher|forBlock|(Lnet/minecraft/block/Block;)Lnet/minecraft/block/state/pattern/BlockMatcher;
+      @|com/Eternal_plasma/BlueBricks/world/ModWorldGen.java|1631|1637|Blocks|class|net.minecraft.init.Blocks|false
+      @|com/Eternal_plasma/BlueBricks/world/ModWorldGen.java|1638|1648|NETHERRACK|field|net.minecraft.init.Blocks|NETHERRACK
+      @|com/Eternal_plasma/BlueBricks/world/ModWorldGen.java|1667|1675|generate|method|net.minecraft.world.gen.feature.WorldGenerator|generate|(Lnet/minecraft/world/World;Ljava/util/Random;Lnet/minecraft/util/math/BlockPos;)Z
+      @|com/Eternal_plasma/BlueBricks/world/ModWorldGen.java|1676|1681|world|param|com.Eternal_plasma.BlueBricks.world.ModWorldGen|generateOre|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/World;Ljava/util/Random;IIIIII)V|world|1
+      @|com/Eternal_plasma/BlueBricks/world/ModWorldGen.java|1683|1689|random|param|com.Eternal_plasma.BlueBricks.world.ModWorldGen|generateOre|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/World;Ljava/util/Random;IIIIII)V|random|2
+   Method End: generateOre(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/World;Ljava/util/Random;IIIIII)V
+Class End  : com.Eternal_plasma.BlueBricks.world.ModWorldGen
+endProcessing "com/Eternal_plasma/BlueBricks/world/ModWorldGen.java"
+

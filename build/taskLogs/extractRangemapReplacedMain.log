@@ -1,0 +1,43 @@
+Unsupposrted library path: F:\Modding\BlueBricks\build\classes\api
+Unsupposrted library path: F:\Modding\BlueBricks\build\resources\api
+Symbol range map extraction starting
+Processing 13 files
+startProcessing "com/Eternal_plasma/BlueBricks/Main.java" md5: 5a528e206c0564032b6754c966dc558e
+endProcessing "com/Eternal_plasma/BlueBricks/Main.java"
+
+startProcessing "com/Eternal_plasma/BlueBricks/blocks/BlockBase.java" md5: 48b9b8b9e25961e498f2353e92993c36
+endProcessing "com/Eternal_plasma/BlueBricks/blocks/BlockBase.java"
+
+startProcessing "com/Eternal_plasma/BlueBricks/blocks/Warped_ore.java" md5: acd3b5fb7a92b9b13a368649fca5260e
+endProcessing "com/Eternal_plasma/BlueBricks/blocks/Warped_ore.java"
+
+startProcessing "com/Eternal_plasma/BlueBricks/blocks/warped_brick_block.java" md5: 98d35d49c3da63060a003e4be73fa536
+endProcessing "com/Eternal_plasma/BlueBricks/blocks/warped_brick_block.java"
+
+startProcessing "com/Eternal_plasma/BlueBricks/init/ModBlocks.java" md5: 9e9ad81d39a45af49018b397416d49fe
+endProcessing "com/Eternal_plasma/BlueBricks/init/ModBlocks.java"
+
+startProcessing "com/Eternal_plasma/BlueBricks/init/ModItems.java" md5: 331b2c58b97464b6d355e3ba7d55e8f3
+endProcessing "com/Eternal_plasma/BlueBricks/init/ModItems.java"
+
+startProcessing "com/Eternal_plasma/BlueBricks/items/ItemBase.java" md5: 7f7f80ffefd3d153d4dfc3ce391ee911
+endProcessing "com/Eternal_plasma/BlueBricks/items/ItemBase.java"
+
+startProcessing "com/Eternal_plasma/BlueBricks/proxy/ClientProxy.java" md5: 3a3d41ff094f7d0713932c7440f33aa0
+endProcessing "com/Eternal_plasma/BlueBricks/proxy/ClientProxy.java"
+
+startProcessing "com/Eternal_plasma/BlueBricks/proxy/CommonProxy.java" md5: 37888588a203b040a5a4d49f4e74900a
+endProcessing "com/Eternal_plasma/BlueBricks/proxy/CommonProxy.java"
+
+startProcessing "com/Eternal_plasma/BlueBricks/util/IHasModel.java" md5: 5493bf4acc80f72d5f11082ed62db18a
+endProcessing "com/Eternal_plasma/BlueBricks/util/IHasModel.java"
+
+startProcessing "com/Eternal_plasma/BlueBricks/util/Refrence.java" md5: b173e0b18742f8df5feeb24d0fdd48a7
+endProcessing "com/Eternal_plasma/BlueBricks/util/Refrence.java"
+
+startProcessing "com/Eternal_plasma/BlueBricks/util/handlers/RegistryHandler.java" md5: b768f5667b857714d690ef997fd19a75
+endProcessing "com/Eternal_plasma/BlueBricks/util/handlers/RegistryHandler.java"
+
+startProcessing "com/Eternal_plasma/BlueBricks/world/ModWorldGen.java" md5: def188a5f4440365985f010ab9d3cf40
+endProcessing "com/Eternal_plasma/BlueBricks/world/ModWorldGen.java"
+

@@ -1,0 +1,123 @@
+---- Minecraft Crash Report ----
+// Why did you do that?
+
+Time: 3/7/20 12:21 PM
+Description: Ticking player
+
+java.lang.Error: Unresolved compilation problem: 
+	The method generateOre(IBlockState, World, Random, int, int, int, int, int, int) in the type ModWorldGen is not applicable for the arguments (IBlockState, World, Random, int, int, int, int, int, int, Block)
+
+	at com.Eternal_plasma.BlueBricks.world.ModWorldGen.generateNether(ModWorldGen.java:41)
+	at com.Eternal_plasma.BlueBricks.world.ModWorldGen.generate(ModWorldGen.java:29)
+	at net.minecraftforge.fml.common.registry.GameRegistry.generateWorld(GameRegistry.java:167)
+	at net.minecraft.world.chunk.Chunk.populate(Chunk.java:1095)
+	at net.minecraft.world.chunk.Chunk.populate(Chunk.java:1074)
+	at net.minecraft.world.gen.ChunkProviderServer.provideChunk(ChunkProviderServer.java:169)
+	at net.minecraft.world.World.getChunkFromChunkCoords(World.java:362)
+	at net.minecraft.world.World.getChunkFromBlockCoords(World.java:354)
+	at net.minecraft.world.World.getBlockState(World.java:995)
+	at net.minecraft.world.Teleporter.placeInExistingPortal(Teleporter.java:104)
+	at net.minecraft.world.Teleporter.placeInPortal(Teleporter.java:36)
+	at net.minecraft.world.Teleporter.placeEntity(Teleporter.java:443)
+	at net.minecraft.server.management.PlayerList.transferEntityToWorld(PlayerList.java:762)
+	at net.minecraft.server.management.PlayerList.transferPlayerToDimension(PlayerList.java:662)
+	at net.minecraft.entity.player.EntityPlayerMP.changeDimension(EntityPlayerMP.java:745)
+	at net.minecraft.entity.Entity.changeDimension(Entity.java:2911)
+	at net.minecraft.entity.Entity.onEntityUpdate(Entity.java:522)
+	at net.minecraft.entity.EntityLivingBase.onEntityUpdate(EntityLivingBase.java:279)
+	at net.minecraft.entity.Entity.onUpdate(Entity.java:466)
+	at net.minecraft.entity.EntityLivingBase.onUpdate(EntityLivingBase.java:2322)
+	at net.minecraft.entity.player.EntityPlayer.onUpdate(EntityPlayer.java:272)
+	at net.minecraft.entity.player.EntityPlayerMP.onUpdateEntity(EntityPlayerMP.java:423)
+	at net.minecraft.network.NetHandlerPlayServer.update(NetHandlerPlayServer.java:185)
+	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher$1.update(NetworkDispatcher.java:212)
+	at net.minecraft.network.NetworkManager.processReceivedPackets(NetworkManager.java:307)
+	at net.minecraft.network.NetworkSystem.networkTick(NetworkSystem.java:197)
+	at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:865)
+	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:743)
+	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:192)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:592)
+	at java.lang.Thread.run(Unknown Source)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Server thread
+Stacktrace:
+	at com.Eternal_plasma.BlueBricks.world.ModWorldGen.generateNether(ModWorldGen.java:41)
+	at com.Eternal_plasma.BlueBricks.world.ModWorldGen.generate(ModWorldGen.java:29)
+	at net.minecraftforge.fml.common.registry.GameRegistry.generateWorld(GameRegistry.java:167)
+	at net.minecraft.world.chunk.Chunk.populate(Chunk.java:1095)
+	at net.minecraft.world.chunk.Chunk.populate(Chunk.java:1074)
+	at net.minecraft.world.gen.ChunkProviderServer.provideChunk(ChunkProviderServer.java:169)
+	at net.minecraft.world.World.getChunkFromChunkCoords(World.java:362)
+	at net.minecraft.world.World.getChunkFromBlockCoords(World.java:354)
+	at net.minecraft.world.World.getBlockState(World.java:995)
+	at net.minecraft.world.Teleporter.placeInExistingPortal(Teleporter.java:104)
+	at net.minecraft.world.Teleporter.placeInPortal(Teleporter.java:36)
+	at net.minecraft.world.Teleporter.placeEntity(Teleporter.java:443)
+	at net.minecraft.server.management.PlayerList.transferEntityToWorld(PlayerList.java:762)
+	at net.minecraft.server.management.PlayerList.transferPlayerToDimension(PlayerList.java:662)
+	at net.minecraft.entity.player.EntityPlayerMP.changeDimension(EntityPlayerMP.java:745)
+	at net.minecraft.entity.Entity.changeDimension(Entity.java:2911)
+	at net.minecraft.entity.Entity.onEntityUpdate(Entity.java:522)
+	at net.minecraft.entity.EntityLivingBase.onEntityUpdate(EntityLivingBase.java:279)
+	at net.minecraft.entity.Entity.onUpdate(Entity.java:466)
+	at net.minecraft.entity.EntityLivingBase.onUpdate(EntityLivingBase.java:2322)
+	at net.minecraft.entity.player.EntityPlayer.onUpdate(EntityPlayer.java:272)
+
+-- Player being ticked --
+Details:
+	Entity Type: null (net.minecraft.entity.player.EntityPlayerMP)
+	Entity ID: 192
+	Entity Name: Player638
+	Entity's Exact location: -3.00, 65.16, -11.00
+	Entity's Block location: World: (-3,65,-11), Chunk: (at 13,4,5 in -1,-1; contains blocks -16,0,-16 to -1,255,-1), Region: (-1,-1; contains chunks -32,-32 to -1,-1, blocks -512,0,-512 to -1,255,-1)
+	Entity's Momentum: 0.00, 0.00, 0.00
+	Entity's Passengers: []
+	Entity's Vehicle: ~~ERROR~~ NullPointerException: null
+Stacktrace:
+	at net.minecraft.entity.player.EntityPlayerMP.onUpdateEntity(EntityPlayerMP.java:423)
+	at net.minecraft.network.NetHandlerPlayServer.update(NetHandlerPlayServer.java:185)
+	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher$1.update(NetworkDispatcher.java:212)
+	at net.minecraft.network.NetworkManager.processReceivedPackets(NetworkManager.java:307)
+
+-- Ticking connection --
+Details:
+	Connection: net.minecraft.network.NetworkManager@23833184
+Stacktrace:
+	at net.minecraft.network.NetworkSystem.networkTick(NetworkSystem.java:197)
+	at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:865)
+	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:743)
+	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:192)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:592)
+	at java.lang.Thread.run(Unknown Source)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_241, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 707672360 bytes (674 MB) / 941096960 bytes (897 MB) up to 3817865216 bytes (3641 MB)
+	JVM Flags: 1 total; -Xmx4096m
+	IntCache: cache: 0, tcache: 0, allocated: 13, tallocated: 95
+	FML: MCP 9.42 Powered by Forge 14.23.5.2847 5 mods loaded, 5 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+
+	| State  | ID        | Version      | Source                           | Signature |
+	|:------ |:--------- |:------------ |:-------------------------------- |:--------- |
+	| LCHIJA | minecraft | 1.12.2       | minecraft.jar                    | None      |
+	| LCHIJA | mcp       | 9.42         | minecraft.jar                    | None      |
+	| LCHIJA | FML       | 8.0.99.99    | forgeSrc-1.12.2-14.23.5.2847.jar | None      |
+	| LCHIJA | forge     | 14.23.5.2847 | forgeSrc-1.12.2-14.23.5.2847.jar | None      |
+	| LCHIJA | bm        | 1.0          | bin                              | None      |
+
+	Loaded coremods (and transformers): 
+	GL info: ~~ERROR~~ RuntimeException: No OpenGL context found in the current thread.
+	Profiler Position: N/A (disabled)
+	Player Count: 1 / 8; [EntityPlayerMP['Player638'/192, l='New World', x=-3.00, y=65.16, z=-11.00]]
+	Type: Integrated Server (map_client.txt)
+	Is Modded: Definitely; Client brand changed to 'fml,forge'
